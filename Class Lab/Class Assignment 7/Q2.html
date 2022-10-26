@@ -1,0 +1,24 @@
+
+<html>
+  <body>
+    <form action="process.php" method="post">
+      <label for="">Course Number:</label><br>
+      <input type="text" name="CourseNumber"><br>
+      <label for="">Course Title:</label><br>
+      <input type="text" name="CourseTitle"><br>
+      <label for="">Instructor:</label><br>
+      <input type="text" name="Instructor"><br>
+      <label for="">Meeting Time:</label><br>
+      <input type="time" name="MeetingTime">
+      <input type="date" name="MeetingDate"><br>
+      <label for="">Active:</label><br>
+      <select name="Active">
+        <option value="" hidden>Yes/No</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+      <br><br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
