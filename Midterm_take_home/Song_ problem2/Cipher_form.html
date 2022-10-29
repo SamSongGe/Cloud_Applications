@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #input { float: right; width: 50%; }
+      #word {float: right; width: 9.33%;}
+    </style>
+  </head>
+  <body>
+    <form action="Song.php" method="post">
+      <fieldset>
+        <label>My Name:</label>
+        <input type="text" name="name" placeholder="Enter your name here" id="input"><br><br>
+        <label>GWID:</label>
+        <input type="text" name="GWID" placeholder="Your GWID" id="input"><br><br>
+        <label>Create Cipher Table with a Shift Of:</label>
+        <input type="number" name="shift" min="1" max="25" id="input"><br>
+        <i>(Choose a number from 1 to 25)</i>
+        <br><br>
+        <input type="reset" value="Clear" style="width: 49.55%; background-color: orange;">
+        <input type="submit" value="Submit" style="width: 49.55%;background-color: orange;">
+        <br><br>
+      </fieldset>
+    </form>
+  </body>
+</html>
